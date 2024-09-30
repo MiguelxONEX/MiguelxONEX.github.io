@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    text-decoration: none;
+    margin:0 ;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url(https://i.redd.it/m9d3tw7ggxj41.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+h1{
+    font-family: Fredoka;
+}
+.tudo{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.linksd a{
+    color:black;
+}
+.linksd a{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 1.5rem;
+    color:rgb(7, 7, 7);
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(0px);
+    transition: box-shadow 0.25s ease-out,
+                transform 0.25s ease-out;
+}
+ .linksd a:hover, .linksd a:focus{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    transform: translateY(2px);
+}
